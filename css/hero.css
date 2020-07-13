@@ -1,0 +1,27 @@
+html, body {
+	font-family:
+}
+
+header {
+	background-color: #a4c1c1;
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px; color: white;
+}
+header img{
+	border-radius: 100px;
+	width:900px;
+	border: 10px solid #344c4c;
+
+}
+
+/*<header>
+		<img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%; 
+
+	} src="img/ss.jpg" > */
