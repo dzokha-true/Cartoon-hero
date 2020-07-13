@@ -1,21 +1,38 @@
-html, body {
-	font-family: Arial, sans-serif;
+@font-face {
+	font-family: 's';
+	src: url(fonts/Van Helsig.ttf);
+	font-weight: 100;
+}
+	
+	html, body {
+	font-family: s;
 	padding: 0px;
 	margin:0px;
 }
+
+
 
 header {
 	background-color: #a4c1c1;
 	padding: 20px;
 	text-align: center;
 }
+header {background-image: url('../img/danuwall city.jpg');}
 
-h1{
-
-	
-
-	font-size: 90px; color: white;
+h1 {
+	text-align: center;
+	font-family: s;
+	font-weight: 100;
+	font-size: 75px;
+	color: #0086b3;
 }
+h2 {font-family: s;
+	font-weight: 100;
+	font-size: 45px;
+}
+h2 p {font-family: s;
+	font-weight: 100;
+	font-size: 50px;}
 header img{
 	border-radius: 100px;
 	width:900px;
@@ -23,9 +40,12 @@ header img{
 }
 
 .content{
-	max-width: 700px;
+	text-align: center;
+	color: 	 #ffffff;
+	font-size: 40px;
 	margin: 0 auto;
 	padding: 0 20px;
+	background-image: url('../img/walltexture.jpg');
 }
 
 img.big-image{
@@ -44,8 +64,8 @@ footer{
 	padding: 40px 20px;
 	background-color: #cc80ff
 ;
-
 }
+
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
