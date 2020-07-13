@@ -1,5 +1,7 @@
 html, body {
-	font-family:
+	font-family: Arial, sans-serif;
+	padding: 0px;
+	margin:0px;
 }
 
 header {
@@ -9,19 +11,42 @@ header {
 }
 
 h1{
+
+	
+
 	font-size: 90px; color: white;
 }
 header img{
 	border-radius: 100px;
 	width:900px;
 	border: 10px solid #344c4c;
-
 }
 
-/*<header>
-		<img {
-		width: 200px;
-		height: 200px;
-		border-radius: 50%; 
+.content{
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
 
-	} src="img/ss.jpg" > */
+img.big-image{
+	max-width: 100%
+}
+
+p.caption{
+	font-size:50px;
+	text-align: center;
+	color: black;
+	text-decoration:  underline;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #cc80ff
+;
+
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
