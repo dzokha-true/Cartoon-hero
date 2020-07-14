@@ -62,11 +62,18 @@ p.caption{
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #cc80ff
+	background-color: #2d5986
 ;
 }
 
 footer ul li{
 	display: inline-block;
 	margin: 0 5px;
+}
+
+a:visited {color: red;}
+a:link {color: red;
+}
+h2 {
+	margin:0px 0px;
 }
