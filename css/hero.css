@@ -17,7 +17,7 @@ header {
 	padding: 20px;
 	text-align: center;
 }
-header {background-image: url('../img/danuwall city.jpg');}
+header {background-image: url('../img/danuwall_city.jpg');}
 
 h1 {
 	text-align: center;
@@ -45,7 +45,7 @@ header img{
 	font-size: 40px;
 	margin: 0 auto;
 	padding: 0 20px;
-	background-image: url('../img/walltexture.jpg');
+	background-image: url('../img/walltexture(2).jpg');
 }
 
 img.big-image{
