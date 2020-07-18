@@ -71,6 +71,10 @@ footer ul li{
 	margin: 0 5px;
 }
 
+ul li {
+	list-style: none;
+}
+
 a:visited {color: red;}
 a:link {color: red;
 }
